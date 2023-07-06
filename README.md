@@ -1,2 +1,2 @@
 # Programming Hero
-## **Practice Project** - Website for Internet Service Provider
+## **Practice Project** - Internet Service Provider Website
