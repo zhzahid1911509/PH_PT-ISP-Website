@@ -57,8 +57,7 @@ a{
     display: flex;
     justify-content: space-around;
     height: 100vh;
-    align-items: center;
-    
+    align-items: center; 
     background: linear-gradient(to right, #e2e22c 0%, #ffffff 55%);
 }
 
@@ -98,13 +97,46 @@ a{
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    
     background: linear-gradient(to left, #ffff66 0%, #ffffff 55%);
 }
 
 .au-title{
     padding: 5px;
     margin-bottom: 5px;
+}
+
+.pack-container{
+    text-shadow: 0.2mm 0.2mm 0.2mm rgb(30, 15, 15);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 40vh;
+}
+
+.pbox{
+    background: linear-gradient(to left, #f2f204 0%, #fefefe 60%);
+    padding: 15px;
+    border: 0.5px solid;
+    border-radius: 10px;
+    color: silver;
+    height: 100px;
+}
+
+.pbox2{
+    color: gold;
+}
+
+.pbox3{
+    color: #E5E4E2;
+}
+
+.ptitle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgba(5, 178, 20, 0.893);
+    text-shadow: 0.2mm 0.2mm 0.2mm rgb(222, 30, 30);
 }
 
 
