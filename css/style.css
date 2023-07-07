@@ -1,11 +1,11 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0%;
     padding: 0%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .menu-container{
-    background-color: beige;
+    background-color: rgb(71, 216, 248);
     padding: 10px;
     list-style: none;
     display: flex;
@@ -58,7 +58,7 @@ a{
     justify-content: space-around;
     height: 100vh;
     align-items: center; 
-    background: linear-gradient(to right, #e2e22c 0%, #ffffff 55%);
+    background: linear-gradient(to right, #1be8ec 0%, #ffffff 55%);
 }
 
 .title{
@@ -97,7 +97,7 @@ a{
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    background: linear-gradient(to left, #ffff66 0%, #ffffff 55%);
+    background: linear-gradient(to left, #1be8ec 0%, #ffffff 55%);
 }
 
 .au-title{
@@ -106,29 +106,33 @@ a{
 }
 
 .pack-container{
-    text-shadow: 0.2mm 0.2mm 0.2mm rgb(30, 15, 15);
+    text-shadow: 0.2mm 0.2mm 0.2mm black;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-evenly;
     text-align: center;
-    height: 40vh;
+    height: 75vh;
+    letter-spacing: 1.5px;
 }
 
-.pbox{
-    background: linear-gradient(to left, #f2f204 0%, #fefefe 60%);
-    padding: 15px;
+.pbox{ 
+    background: linear-gradient(to left, #1be8ec 0%, #fefefe 80%);
+    padding: 30px;
     border: 0.5px solid;
     border-radius: 10px;
-    color: silver;
-    height: 100px;
+    color: #CD7F32;
+    height: auto;
+    font-weight: 200;
+    line-height: 30px;
+    margin-bottom: 20px;
 }
 
 .pbox2{
-    color: gold;
+    color: silver;
 }
 
 .pbox3{
-    color: #E5E4E2;
+    color: gold;
+    
 }
 
 .ptitle{
@@ -137,6 +141,20 @@ a{
     font-weight: 700;
     color: rgba(5, 178, 20, 0.893);
     text-shadow: 0.2mm 0.2mm 0.2mm rgb(222, 30, 30);
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+
+.pb-title{
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.pbox:hover{
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    font-size: larger;
 }
 
 
